@@ -1,15 +1,14 @@
 spring:
    profiles:
-        active:
-        -dev
+      active:
+      -dev
 ---
 spring:
    profiles: dev
    application:
-        name: microservicecloud-config-zzm-dev
+      name: microservicecloud-config-zzm-dev
 ---
 spring
    profiles: test
    application:
-        name: microservicecloud-config-zzm-test
-# 请保存为UTF-8格式
+      name: microservicecloud-config-zzm-test
